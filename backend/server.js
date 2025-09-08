@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect MongoDB
-mongoose.connect("mongodb://127.0.0.1:27017/paymentapp", {
+mongoose.connect("mongodb://localhost:27017/PaymentApp", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
